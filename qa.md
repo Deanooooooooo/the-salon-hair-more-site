@@ -46,7 +46,8 @@ PASS
 
 ## Gate 8 — responsive visual QA
 PASS
-- CSS includes responsive mobile layout for hero, cards, gallery, CTA, map and footer.
+- Desktop and mobile screenshots captured after fixes.
+- Fixed mobile overflow/clipping, hero spacing, CTA wrapping, and awkward copy label.
 - HTML/CSS asset audit passed; no broken local image references.
 
 ## Gate 9 — live QA
@@ -55,3 +56,4 @@ PASS
 - Live: https://deanooooooooo.github.io/the-salon-hair-more-site/
 - HTTP 200 confirmed after Pages build.
 - Live HTML contains business name, verified testimonial name, schema, OG tags, map block and phone CTA.
+- Map iframe source changed to simple address query and `loading=eager`; standalone iframe variant visibly loaded in screenshot test.
