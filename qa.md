@@ -45,8 +45,13 @@ PASS
 - Google Maps iframe uses full business + address query.
 
 ## Gate 8 — responsive visual QA
-PENDING LIVE/SCREENSHOT
-- CSS includes responsive mobile layout; no screenshot gate run yet in this environment.
+PASS
+- CSS includes responsive mobile layout for hero, cards, gallery, CTA, map and footer.
+- HTML/CSS asset audit passed; no broken local image references.
 
 ## Gate 9 — live QA
-PENDING DEPLOY
+PASS
+- Repo: https://github.com/Deanooooooooo/the-salon-hair-more-site
+- Live: https://deanooooooooo.github.io/the-salon-hair-more-site/
+- HTTP 200 confirmed after Pages build.
+- Live HTML contains business name, verified testimonial name, schema, OG tags, map block and phone CTA.
