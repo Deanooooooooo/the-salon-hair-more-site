@@ -16,10 +16,10 @@ PASS WITH NOTE
 - Facebook public page attempts were login-blocked/no useful public imagery.
 
 ## Gate 3 — testimonial audit
-PASS WITH CAUTION
-- Google Maps text capture found mixed reviews.
-- Used only one verified positive written Google review excerpt with real reviewer name.
-- No aggregate review count displayed.
+PASS
+- Google Maps text capture found mixed reviews; one verified positive Google excerpt used.
+- Studio24 ratings endpoint was checked in-browser; selected 3 verified 5-star written Studio24 reviews with real names/text.
+- Four testimonial cards now display; no aggregate review count displayed.
 
 ## Gate 4 — copy audit
 PASS
@@ -47,7 +47,7 @@ PASS
 ## Gate 8 — responsive visual QA
 PASS
 - Desktop and mobile screenshots captured after fixes.
-- Fixed mobile overflow/clipping, hero spacing, CTA wrapping, and awkward copy label.
+- Fixed mobile overflow/clipping, hero spacing, CTA wrapping, awkward copy labels, right-aligned testimonial H2, and one-card testimonial layout.
 - HTML/CSS asset audit passed; no broken local image references.
 
 ## Gate 9 — live QA
